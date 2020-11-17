@@ -47,6 +47,7 @@ namespace CalculatorProject3155
             this.SixButton = new System.Windows.Forms.Button();
             this.NineButton = new System.Windows.Forms.Button();
             this.EightButton = new System.Windows.Forms.Button();
+            this.MoreButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // OutcomeTextBox
@@ -55,7 +56,7 @@ namespace CalculatorProject3155
             this.OutcomeTextBox.Multiline = true;
             this.OutcomeTextBox.Name = "OutcomeTextBox";
             this.OutcomeTextBox.ReadOnly = true;
-            this.OutcomeTextBox.Size = new System.Drawing.Size(398, 75);
+            this.OutcomeTextBox.Size = new System.Drawing.Size(419, 75);
             this.OutcomeTextBox.TabIndex = 0;
             // 
             // CalculateButton
@@ -244,12 +245,23 @@ namespace CalculatorProject3155
             this.EightButton.UseVisualStyleBackColor = true;
             this.EightButton.Click += new System.EventHandler(this.EightButton_Click);
             // 
+            // MoreButton
+            // 
+            this.MoreButton.Location = new System.Drawing.Point(444, 429);
+            this.MoreButton.Name = "MoreButton";
+            this.MoreButton.Size = new System.Drawing.Size(59, 56);
+            this.MoreButton.TabIndex = 18;
+            this.MoreButton.Text = "MORE";
+            this.MoreButton.UseVisualStyleBackColor = true;
+            this.MoreButton.Click += new System.EventHandler(this.MoreButton_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(465, 498);
+            this.ClientSize = new System.Drawing.Size(513, 498);
+            this.Controls.Add(this.MoreButton);
             this.Controls.Add(this.EightButton);
             this.Controls.Add(this.NineButton);
             this.Controls.Add(this.SixButton);
@@ -295,6 +307,7 @@ namespace CalculatorProject3155
         private System.Windows.Forms.Button SixButton;
         private System.Windows.Forms.Button NineButton;
         private System.Windows.Forms.Button EightButton;
+        private System.Windows.Forms.Button MoreButton;
     }
 }
 

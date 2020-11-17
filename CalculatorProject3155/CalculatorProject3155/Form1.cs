@@ -101,5 +101,15 @@ namespace CalculatorProject3155
         {
 
         }
+
+        private void MoreButton_Click(object sender, EventArgs e)
+        {
+            Form2 myForm = new Form2();
+            this.Hide();
+            myForm.ShowDialog();
+            this.Close();
+
+        }
+
     }
 }
