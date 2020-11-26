@@ -16,5 +16,28 @@ namespace CalculatorProject3155
         {
             InitializeComponent();
         }
+
+        private void UnitConversionButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CurrencyConversionButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GraphingButton_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ReturnButton_Click(object sender, EventArgs e)
+        {
+            Form1 myForm = new Form1();
+            this.Hide();
+            myForm.ShowDialog();
+            this.Close();
+        }
     }
 }
