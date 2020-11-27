@@ -9,3 +9,4 @@ C:\Users\Nick Tallent\source\repos\CalculatorProject\CalculatorProject3155\Calcu
 C:\Users\Nick Tallent\source\repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.exe
 C:\Users\Nick Tallent\source\repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.pdb
 C:\Users\Nick Tallent\source\repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.Form2.resources
+C:\Users\Nick Tallent\source\repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.Form3.resources

@@ -24,7 +24,10 @@ namespace CalculatorProject3155
 
         private void CurrencyConversionButton_Click(object sender, EventArgs e)
         {
-
+            Form3 myForm = new Form3();
+            this.Hide();
+            myForm.ShowDialog();
+            this.Close();
         }
 
         private void GraphingButton_Click(object sender, EventArgs e)
