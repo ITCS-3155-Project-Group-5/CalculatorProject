@@ -10,3 +10,15 @@ C:\Users\Nick Tallent\source\repos\CalculatorProject\CalculatorProject3155\Calcu
 C:\Users\Nick Tallent\source\repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.pdb
 C:\Users\Nick Tallent\source\repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.Form2.resources
 C:\Users\Nick Tallent\source\repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.Form3.resources
+C:\Users\haong\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\bin\Debug\CalculatorProject3155.exe.config
+C:\Users\haong\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\bin\Debug\CalculatorProject3155.exe
+C:\Users\haong\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\bin\Debug\CalculatorProject3155.pdb
+C:\Users\haong\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.csprojAssemblyReference.cache
+C:\Users\haong\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.Form1.resources
+C:\Users\haong\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.Form2.resources
+C:\Users\haong\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.Form3.resources
+C:\Users\haong\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.Properties.Resources.resources
+C:\Users\haong\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.csproj.GenerateResource.cache
+C:\Users\haong\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.csproj.CoreCompileInputs.cache
+C:\Users\haong\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.exe
+C:\Users\haong\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.pdb
