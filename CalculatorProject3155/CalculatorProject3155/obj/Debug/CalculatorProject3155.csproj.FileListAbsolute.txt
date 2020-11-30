@@ -25,3 +25,4 @@ C:\Users\haong\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorPr
 C:\Users\Nick Tallent\source\repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Nick Tallent\source\repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Nick Tallent\source\repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.csproj.CopyComplete
+C:\Users\Nick Tallent\source\repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.Form4.resources

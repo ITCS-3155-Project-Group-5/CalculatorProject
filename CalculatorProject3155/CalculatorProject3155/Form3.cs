@@ -10,11 +10,25 @@ using System.Windows.Forms;
 using System.Net;
 using System.IO;
 using System.Net.Http;
+using System.Web.UI;
+using System.Web.Script.Serialization;
+using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 namespace CalculatorProject3155
 {
     public partial class Form3 : Form
     {
+
+        public class Conversions
+        {
+            public Boolean success { get; set; }
+            public string terms { get; set; }
+            public string privacy { get; set; }
+            public double timestamp { get; set; }
+            public string source { get; set; }
+            public Dictionary<string, double> quotes { get; set; }
+
+        }
         public Form3()
         {
             InitializeComponent();
@@ -27,25 +41,9 @@ namespace CalculatorProject3155
             HttpWebResponse response = (HttpWebResponse)request.GetResponse();
             Stream resStream = response.GetResponseStream();
 
-            string result = GetResponseBody(response);
+            string json = GetResponseBody(response);
 
-            var json = result;
-
-            var objects = JArray.Parse(json); // parse as array  
-            foreach (JObject root in objects)
-            {
-                foreach (KeyValuePair<String, JToken> app in root)
-                {
-                    var appName = app.Key;
-                    var description = (String)app.Value["Description"];
-                    var value = (String)app.Value["Value"];
-
-                    Console.WriteLine(appName);
-                    Console.WriteLine(description);
-                    Console.WriteLine(value);
-                    Console.WriteLine("\n");
-                }
-            }
+            Conversions conversions = JsonConvert.DeserializeObject<Conversions>(json);
         }
 
 
@@ -57,6 +55,10 @@ namespace CalculatorProject3155
             return responseStreamReader.ReadToEnd();
         }
 
+        private void USDConversionList_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string index = USDConversionList.SelectedItem.ToString();
+        }
     }
 
  }
