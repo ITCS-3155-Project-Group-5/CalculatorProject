@@ -30,6 +30,7 @@ namespace CalculatorProject3155
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
+            this.CurrencyOutcomeTextBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -41,11 +42,19 @@ namespace CalculatorProject3155
             this.label1.TabIndex = 0;
             this.label1.Text = "Select Current Currency";
             // 
+            // CurrencyOutcomeTextBox
+            // 
+            this.CurrencyOutcomeTextBox.Location = new System.Drawing.Point(254, 246);
+            this.CurrencyOutcomeTextBox.Name = "CurrencyOutcomeTextBox";
+            this.CurrencyOutcomeTextBox.Size = new System.Drawing.Size(100, 20);
+            this.CurrencyOutcomeTextBox.TabIndex = 1;
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(553, 360);
+            this.Controls.Add(this.CurrencyOutcomeTextBox);
             this.Controls.Add(this.label1);
             this.Name = "Form3";
             this.Text = "Form3";
@@ -57,5 +66,6 @@ namespace CalculatorProject3155
         #endregion
 
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox CurrencyOutcomeTextBox;
     }
 }
