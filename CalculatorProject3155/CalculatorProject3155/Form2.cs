@@ -19,7 +19,10 @@ namespace CalculatorProject3155
 
         private void UnitConversionButton_Click(object sender, EventArgs e)
         {
-
+            Form4 myForm = new Form4();
+            this.Hide();
+            myForm.ShowDialog();
+            this.Close();
         }
 
         private void CurrencyConversionButton_Click(object sender, EventArgs e)
@@ -35,7 +38,7 @@ namespace CalculatorProject3155
 
         }
 
-        private void ReturnButton_Click(object sender, EventArgs e)
+        private void BasicOperationsButton_Click(object sender, EventArgs e)
         {
             Form1 myForm = new Form1();
             this.Hide();

@@ -140,6 +140,7 @@ namespace CalculatorProject3155
         {
             operand2 = input;
 
+            //if statement to check if user input has the negative sign only in the front
             if (operand1.Contains('-'))
             {
                 if (operand1.IndexOf('-') != 0)
@@ -149,6 +150,7 @@ namespace CalculatorProject3155
                 }
             }
 
+            //if statement to check if user input has the negative sign only in the front
             if (operand2.Contains('-'))
             {
                 if (operand2.IndexOf('-') != 0)
@@ -157,19 +159,19 @@ namespace CalculatorProject3155
                     return;
                 }
             }
-        
-            if (operand1.Contains('-') || operand2.Contains('-') || operand1.Contains('.') || operand2.Contains('.')) {
-                   
+
+            //if statement to check if user input does not have more than one negative sign or decimal
+            if (operand1.Contains('-') || operand2.Contains('-') || operand1.Contains('.') || operand2.Contains('.'))
+            {
+
                 if (operand1.Count(f => (f == '-')) > 1 || operand2.Count(f => (f == '-')) > 1 ||
                     operand1.Count(f => (f == '.')) > 1 || operand2.Count(f => (f == '.')) > 1)
                 {
                     OutcomeTextBox.Text = "Misuse of decimal or negative button. Press CLEAR.";
                     return;
                 }
-                        
+
             }
-
-
 
             double num1, num2;
             double.TryParse(operand1, out num1);
@@ -209,28 +211,27 @@ namespace CalculatorProject3155
 
             }
         }
-    
 
-    private void MoreButton_Click(object sender, EventArgs e)
-    {
-        Form2 myForm = new Form2();
-        this.Hide();
-        myForm.ShowDialog();
-        this.Close();
+        private void MoreButton_Click(object sender, EventArgs e)
+        {
+            Form2 myForm = new Form2();
+            this.Hide();
+            myForm.ShowDialog();
+            this.Close();
 
+        }
+
+        private void OutcomeTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ClearButton_Click(object sender, EventArgs e)
+        {
+            this.OutcomeTextBox.Text = "";
+            this.input = string.Empty;
+            this.operand1 = string.Empty;
+            this.operand2 = string.Empty;
+        }
     }
-
-    private void OutcomeTextBox_TextChanged(object sender, EventArgs e)
-    {
-
-    }
-
-    private void ClearButton_Click(object sender, EventArgs e)
-    {
-        this.OutcomeTextBox.Text = "";
-        this.input = string.Empty;
-        this.operand1 = string.Empty;
-        this.operand2 = string.Empty;
-    }
-}
 }
