@@ -15,10 +15,6 @@ namespace CalculatorProject3155
 {
     public partial class Form3 : Form
     {
-        public class Conversions
-        {
-
-        }
         public Form3()
         {
             InitializeComponent();
@@ -33,9 +29,9 @@ namespace CalculatorProject3155
 
             string result = GetResponseBody(response);
 
-            JArray json = (JArray)result;
+            var json = result;
 
-            JArray objects = JArray.Parse(json.ToString()); // parse as array  
+            var objects = JArray.Parse(json); // parse as array  
             foreach (JObject root in objects)
             {
                 foreach (KeyValuePair<String, JToken> app in root)

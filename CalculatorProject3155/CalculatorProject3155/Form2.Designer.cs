@@ -37,9 +37,10 @@ namespace CalculatorProject3155
             // 
             // UnitConversionButton
             // 
-            this.UnitConversionButton.Location = new System.Drawing.Point(44, 59);
+            this.UnitConversionButton.Location = new System.Drawing.Point(59, 73);
+            this.UnitConversionButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.UnitConversionButton.Name = "UnitConversionButton";
-            this.UnitConversionButton.Size = new System.Drawing.Size(175, 122);
+            this.UnitConversionButton.Size = new System.Drawing.Size(233, 150);
             this.UnitConversionButton.TabIndex = 0;
             this.UnitConversionButton.Text = "Unit Conversion";
             this.UnitConversionButton.UseVisualStyleBackColor = true;
@@ -47,9 +48,10 @@ namespace CalculatorProject3155
             // 
             // GraphingButton
             // 
-            this.GraphingButton.Location = new System.Drawing.Point(44, 286);
+            this.GraphingButton.Location = new System.Drawing.Point(59, 352);
+            this.GraphingButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.GraphingButton.Name = "GraphingButton";
-            this.GraphingButton.Size = new System.Drawing.Size(175, 122);
+            this.GraphingButton.Size = new System.Drawing.Size(233, 150);
             this.GraphingButton.TabIndex = 1;
             this.GraphingButton.Text = "Graphing";
             this.GraphingButton.UseVisualStyleBackColor = true;
@@ -57,34 +59,37 @@ namespace CalculatorProject3155
             // 
             // CurrencyConversionButton
             // 
-            this.CurrencyConversionButton.Location = new System.Drawing.Point(305, 59);
+            this.CurrencyConversionButton.Location = new System.Drawing.Point(407, 73);
+            this.CurrencyConversionButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CurrencyConversionButton.Name = "CurrencyConversionButton";
-            this.CurrencyConversionButton.Size = new System.Drawing.Size(175, 122);
+            this.CurrencyConversionButton.Size = new System.Drawing.Size(233, 150);
             this.CurrencyConversionButton.TabIndex = 2;
             this.CurrencyConversionButton.Text = "Currency Conversion";
             this.CurrencyConversionButton.UseVisualStyleBackColor = true;
             this.CurrencyConversionButton.Click += new System.EventHandler(this.CurrencyConversionButton_Click);
             // 
-            // ReturnButton
+            // BasicOperationsButton
             // 
-            this.ReturnButton.Location = new System.Drawing.Point(305, 286);
+            this.ReturnButton.Location = new System.Drawing.Point(407, 352);
+            this.ReturnButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ReturnButton.Name = "ReturnButton";
-            this.ReturnButton.Size = new System.Drawing.Size(175, 122);
+            this.ReturnButton.Size = new System.Drawing.Size(233, 150);
             this.ReturnButton.TabIndex = 3;
-            this.ReturnButton.Text = "Return";
+            this.ReturnButton.Text = "Basic Operations";
             this.ReturnButton.UseVisualStyleBackColor = true;
-            this.ReturnButton.Click += new System.EventHandler(this.ReturnButton_Click);
+            this.ReturnButton.Click += new System.EventHandler(this.BasicOperationsButton_Click);
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(513, 498);
+            this.ClientSize = new System.Drawing.Size(684, 613);
             this.Controls.Add(this.ReturnButton);
             this.Controls.Add(this.CurrencyConversionButton);
             this.Controls.Add(this.GraphingButton);
             this.Controls.Add(this.UnitConversionButton);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form2";
             this.Text = "More Options";
             this.ResumeLayout(false);

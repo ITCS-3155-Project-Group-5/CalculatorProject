@@ -48,13 +48,13 @@ namespace CalculatorProject3155
             this.NineButton = new System.Windows.Forms.Button();
             this.EightButton = new System.Windows.Forms.Button();
             this.MoreButton = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Clear = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // OutcomeTextBox
             // 
             this.OutcomeTextBox.Location = new System.Drawing.Point(45, 34);
-            this.OutcomeTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.OutcomeTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.OutcomeTextBox.Multiline = true;
             this.OutcomeTextBox.Name = "OutcomeTextBox";
             this.OutcomeTextBox.ReadOnly = true;
@@ -65,7 +65,7 @@ namespace CalculatorProject3155
             // CalculateButton
             // 
             this.CalculateButton.Location = new System.Drawing.Point(45, 524);
-            this.CalculateButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CalculateButton.Margin = new System.Windows.Forms.Padding(4);
             this.CalculateButton.Name = "CalculateButton";
             this.CalculateButton.Size = new System.Drawing.Size(467, 74);
             this.CalculateButton.TabIndex = 1;
@@ -77,7 +77,7 @@ namespace CalculatorProject3155
             // 
             this.DivideButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DivideButton.Location = new System.Drawing.Point(491, 174);
-            this.DivideButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DivideButton.Margin = new System.Windows.Forms.Padding(4);
             this.DivideButton.Name = "DivideButton";
             this.DivideButton.Size = new System.Drawing.Size(74, 59);
             this.DivideButton.TabIndex = 2;
@@ -89,7 +89,7 @@ namespace CalculatorProject3155
             // 
             this.MultiplyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MultiplyButton.Location = new System.Drawing.Point(491, 261);
-            this.MultiplyButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MultiplyButton.Margin = new System.Windows.Forms.Padding(4);
             this.MultiplyButton.Name = "MultiplyButton";
             this.MultiplyButton.Size = new System.Drawing.Size(74, 55);
             this.MultiplyButton.TabIndex = 3;
@@ -101,7 +101,7 @@ namespace CalculatorProject3155
             // 
             this.AddButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AddButton.Location = new System.Drawing.Point(491, 345);
-            this.AddButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.AddButton.Margin = new System.Windows.Forms.Padding(4);
             this.AddButton.Name = "AddButton";
             this.AddButton.Size = new System.Drawing.Size(74, 60);
             this.AddButton.TabIndex = 4;
@@ -113,7 +113,7 @@ namespace CalculatorProject3155
             // 
             this.SubtractButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SubtractButton.Location = new System.Drawing.Point(491, 437);
-            this.SubtractButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.SubtractButton.Margin = new System.Windows.Forms.Padding(4);
             this.SubtractButton.Name = "SubtractButton";
             this.SubtractButton.Size = new System.Drawing.Size(74, 53);
             this.SubtractButton.TabIndex = 5;
@@ -125,7 +125,7 @@ namespace CalculatorProject3155
             // 
             this.ZeroButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ZeroButton.Location = new System.Drawing.Point(45, 434);
-            this.ZeroButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ZeroButton.Margin = new System.Windows.Forms.Padding(4);
             this.ZeroButton.Name = "ZeroButton";
             this.ZeroButton.Size = new System.Drawing.Size(113, 57);
             this.ZeroButton.TabIndex = 6;
@@ -137,7 +137,7 @@ namespace CalculatorProject3155
             // 
             this.DecimalButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DecimalButton.Location = new System.Drawing.Point(187, 434);
-            this.DecimalButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.DecimalButton.Margin = new System.Windows.Forms.Padding(4);
             this.DecimalButton.Name = "DecimalButton";
             this.DecimalButton.Size = new System.Drawing.Size(113, 57);
             this.DecimalButton.TabIndex = 7;
@@ -149,7 +149,7 @@ namespace CalculatorProject3155
             // 
             this.NegativeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NegativeButton.Location = new System.Drawing.Point(332, 434);
-            this.NegativeButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.NegativeButton.Margin = new System.Windows.Forms.Padding(4);
             this.NegativeButton.Name = "NegativeButton";
             this.NegativeButton.Size = new System.Drawing.Size(113, 57);
             this.NegativeButton.TabIndex = 8;
@@ -161,7 +161,7 @@ namespace CalculatorProject3155
             // 
             this.OneButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.OneButton.Location = new System.Drawing.Point(45, 346);
-            this.OneButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.OneButton.Margin = new System.Windows.Forms.Padding(4);
             this.OneButton.Name = "OneButton";
             this.OneButton.Size = new System.Drawing.Size(113, 57);
             this.OneButton.TabIndex = 9;
@@ -173,7 +173,7 @@ namespace CalculatorProject3155
             // 
             this.FourButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FourButton.Location = new System.Drawing.Point(45, 260);
-            this.FourButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FourButton.Margin = new System.Windows.Forms.Padding(4);
             this.FourButton.Name = "FourButton";
             this.FourButton.Size = new System.Drawing.Size(113, 57);
             this.FourButton.TabIndex = 10;
@@ -185,7 +185,7 @@ namespace CalculatorProject3155
             // 
             this.SevenButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SevenButton.Location = new System.Drawing.Point(45, 176);
-            this.SevenButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.SevenButton.Margin = new System.Windows.Forms.Padding(4);
             this.SevenButton.Name = "SevenButton";
             this.SevenButton.Size = new System.Drawing.Size(113, 57);
             this.SevenButton.TabIndex = 11;
@@ -197,7 +197,7 @@ namespace CalculatorProject3155
             // 
             this.TwoButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TwoButton.Location = new System.Drawing.Point(187, 346);
-            this.TwoButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TwoButton.Margin = new System.Windows.Forms.Padding(4);
             this.TwoButton.Name = "TwoButton";
             this.TwoButton.Size = new System.Drawing.Size(113, 57);
             this.TwoButton.TabIndex = 12;
@@ -209,7 +209,7 @@ namespace CalculatorProject3155
             // 
             this.ThreeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ThreeButton.Location = new System.Drawing.Point(332, 346);
-            this.ThreeButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.ThreeButton.Margin = new System.Windows.Forms.Padding(4);
             this.ThreeButton.Name = "ThreeButton";
             this.ThreeButton.Size = new System.Drawing.Size(113, 57);
             this.ThreeButton.TabIndex = 13;
@@ -221,7 +221,7 @@ namespace CalculatorProject3155
             // 
             this.FiveButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FiveButton.Location = new System.Drawing.Point(187, 260);
-            this.FiveButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FiveButton.Margin = new System.Windows.Forms.Padding(4);
             this.FiveButton.Name = "FiveButton";
             this.FiveButton.Size = new System.Drawing.Size(113, 57);
             this.FiveButton.TabIndex = 14;
@@ -233,7 +233,7 @@ namespace CalculatorProject3155
             // 
             this.SixButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SixButton.Location = new System.Drawing.Point(332, 260);
-            this.SixButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.SixButton.Margin = new System.Windows.Forms.Padding(4);
             this.SixButton.Name = "SixButton";
             this.SixButton.Size = new System.Drawing.Size(113, 57);
             this.SixButton.TabIndex = 15;
@@ -245,7 +245,7 @@ namespace CalculatorProject3155
             // 
             this.NineButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NineButton.Location = new System.Drawing.Point(332, 176);
-            this.NineButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.NineButton.Margin = new System.Windows.Forms.Padding(4);
             this.NineButton.Name = "NineButton";
             this.NineButton.Size = new System.Drawing.Size(113, 57);
             this.NineButton.TabIndex = 16;
@@ -257,7 +257,7 @@ namespace CalculatorProject3155
             // 
             this.EightButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EightButton.Location = new System.Drawing.Point(187, 176);
-            this.EightButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.EightButton.Margin = new System.Windows.Forms.Padding(4);
             this.EightButton.Name = "EightButton";
             this.EightButton.Size = new System.Drawing.Size(113, 57);
             this.EightButton.TabIndex = 17;
@@ -268,7 +268,7 @@ namespace CalculatorProject3155
             // MoreButton
             // 
             this.MoreButton.Location = new System.Drawing.Point(592, 174);
-            this.MoreButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MoreButton.Margin = new System.Windows.Forms.Padding(4);
             this.MoreButton.Name = "MoreButton";
             this.MoreButton.Size = new System.Drawing.Size(79, 59);
             this.MoreButton.TabIndex = 18;
@@ -276,16 +276,16 @@ namespace CalculatorProject3155
             this.MoreButton.UseVisualStyleBackColor = true;
             this.MoreButton.Click += new System.EventHandler(this.MoreButton_Click);
             // 
-            // button1
+            // Clear
             // 
-            this.button1.Location = new System.Drawing.Point(592, 524);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(79, 69);
-            this.button1.TabIndex = 19;
-            this.button1.Text = "CLEAR";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.ClearButton_Click);
+            this.Clear.Location = new System.Drawing.Point(592, 524);
+            this.Clear.Margin = new System.Windows.Forms.Padding(4);
+            this.Clear.Name = "Clear";
+            this.Clear.Size = new System.Drawing.Size(79, 69);
+            this.Clear.TabIndex = 19;
+            this.Clear.Text = "CLEAR";
+            this.Clear.UseVisualStyleBackColor = true;
+            this.Clear.Click += new System.EventHandler(this.ClearButton_Click);
             // 
             // Form1
             // 
@@ -293,7 +293,7 @@ namespace CalculatorProject3155
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(684, 613);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Clear);
             this.Controls.Add(this.MoreButton);
             this.Controls.Add(this.EightButton);
             this.Controls.Add(this.NineButton);
@@ -313,7 +313,7 @@ namespace CalculatorProject3155
             this.Controls.Add(this.DivideButton);
             this.Controls.Add(this.CalculateButton);
             this.Controls.Add(this.OutcomeTextBox);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Calculator";
             this.ResumeLayout(false);
@@ -342,7 +342,7 @@ namespace CalculatorProject3155
         private System.Windows.Forms.Button NineButton;
         private System.Windows.Forms.Button EightButton;
         private System.Windows.Forms.Button MoreButton;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Clear;
     }
 }
 
