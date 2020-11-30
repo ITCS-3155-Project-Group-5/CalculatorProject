@@ -1,7 +1,7 @@
 ﻿
 namespace CalculatorProject3155
 {
-    partial class Form1
+    partial class Form4
     {
         /// <summary>
         /// Required designer variable.
@@ -21,7 +21,7 @@ namespace CalculatorProject3155
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
+#region Windows Form Designer generated code
 
         /// <summary>
         /// Required method for Designer support - do not modify
@@ -30,11 +30,6 @@ namespace CalculatorProject3155
         private void InitializeComponent()
         {
             this.OutcomeTextBox = new System.Windows.Forms.TextBox();
-            this.CalculateButton = new System.Windows.Forms.Button();
-            this.DivideButton = new System.Windows.Forms.Button();
-            this.MultiplyButton = new System.Windows.Forms.Button();
-            this.AddButton = new System.Windows.Forms.Button();
-            this.SubtractButton = new System.Windows.Forms.Button();
             this.ZeroButton = new System.Windows.Forms.Button();
             this.DecimalButton = new System.Windows.Forms.Button();
             this.NegativeButton = new System.Windows.Forms.Button();
@@ -49,77 +44,32 @@ namespace CalculatorProject3155
             this.EightButton = new System.Windows.Forms.Button();
             this.MoreButton = new System.Windows.Forms.Button();
             this.Clear = new System.Windows.Forms.Button();
+            this.Convert = new System.Windows.Forms.Button();
+            this.Feet = new System.Windows.Forms.Button();
+            this.Centimeter = new System.Windows.Forms.Button();
+            this.Inches = new System.Windows.Forms.Button();
+            this.Yard = new System.Windows.Forms.Button();
+            this.Meter = new System.Windows.Forms.Button();
+            this.Miles = new System.Windows.Forms.Button();
+            this.Grams = new System.Windows.Forms.Button();
+            this.Pounds = new System.Windows.Forms.Button();
+            this.Kilometer = new System.Windows.Forms.Button();
+            this.Millimeter = new System.Windows.Forms.Button();
+            this.Celsius = new System.Windows.Forms.Button();
+            this.Fahrenheit = new System.Windows.Forms.Button();
+            this.Kilograms = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // OutcomeTextBox
             // 
-            this.OutcomeTextBox.Location = new System.Drawing.Point(45, 34);
+            this.OutcomeTextBox.Location = new System.Drawing.Point(45, 13);
             this.OutcomeTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.OutcomeTextBox.Multiline = true;
             this.OutcomeTextBox.Name = "OutcomeTextBox";
             this.OutcomeTextBox.ReadOnly = true;
-            this.OutcomeTextBox.Size = new System.Drawing.Size(557, 91);
+            this.OutcomeTextBox.Size = new System.Drawing.Size(557, 153);
             this.OutcomeTextBox.TabIndex = 0;
             this.OutcomeTextBox.TextChanged += new System.EventHandler(this.OutcomeTextBox_TextChanged);
-            // 
-            // CalculateButton
-            // 
-            this.CalculateButton.Location = new System.Drawing.Point(45, 524);
-            this.CalculateButton.Margin = new System.Windows.Forms.Padding(4);
-            this.CalculateButton.Name = "CalculateButton";
-            this.CalculateButton.Size = new System.Drawing.Size(467, 74);
-            this.CalculateButton.TabIndex = 1;
-            this.CalculateButton.Text = "Calculate";
-            this.CalculateButton.UseVisualStyleBackColor = true;
-            this.CalculateButton.Click += new System.EventHandler(this.CalculateButton_Click);
-            // 
-            // DivideButton
-            // 
-            this.DivideButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DivideButton.Location = new System.Drawing.Point(491, 174);
-            this.DivideButton.Margin = new System.Windows.Forms.Padding(4);
-            this.DivideButton.Name = "DivideButton";
-            this.DivideButton.Size = new System.Drawing.Size(74, 59);
-            this.DivideButton.TabIndex = 2;
-            this.DivideButton.Text = "/";
-            this.DivideButton.UseVisualStyleBackColor = true;
-            this.DivideButton.Click += new System.EventHandler(this.DivideButton_Click);
-            // 
-            // MultiplyButton
-            // 
-            this.MultiplyButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MultiplyButton.Location = new System.Drawing.Point(491, 261);
-            this.MultiplyButton.Margin = new System.Windows.Forms.Padding(4);
-            this.MultiplyButton.Name = "MultiplyButton";
-            this.MultiplyButton.Size = new System.Drawing.Size(74, 55);
-            this.MultiplyButton.TabIndex = 3;
-            this.MultiplyButton.Text = "*";
-            this.MultiplyButton.UseVisualStyleBackColor = true;
-            this.MultiplyButton.Click += new System.EventHandler(this.MultiplyButton_Click);
-            // 
-            // AddButton
-            // 
-            this.AddButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AddButton.Location = new System.Drawing.Point(491, 345);
-            this.AddButton.Margin = new System.Windows.Forms.Padding(4);
-            this.AddButton.Name = "AddButton";
-            this.AddButton.Size = new System.Drawing.Size(74, 60);
-            this.AddButton.TabIndex = 4;
-            this.AddButton.Text = "+";
-            this.AddButton.UseVisualStyleBackColor = true;
-            this.AddButton.Click += new System.EventHandler(this.AddButton_Click);
-            // 
-            // SubtractButton
-            // 
-            this.SubtractButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SubtractButton.Location = new System.Drawing.Point(491, 437);
-            this.SubtractButton.Margin = new System.Windows.Forms.Padding(4);
-            this.SubtractButton.Name = "SubtractButton";
-            this.SubtractButton.Size = new System.Drawing.Size(74, 53);
-            this.SubtractButton.TabIndex = 5;
-            this.SubtractButton.Text = "-";
-            this.SubtractButton.UseVisualStyleBackColor = true;
-            this.SubtractButton.Click += new System.EventHandler(this.SubtractButton_Click);
             // 
             // ZeroButton
             // 
@@ -278,21 +228,175 @@ namespace CalculatorProject3155
             // 
             // Clear
             // 
-            this.Clear.Location = new System.Drawing.Point(592, 524);
+            this.Clear.Location = new System.Drawing.Point(592, 531);
             this.Clear.Margin = new System.Windows.Forms.Padding(4);
             this.Clear.Name = "Clear";
-            this.Clear.Size = new System.Drawing.Size(79, 69);
+            this.Clear.Size = new System.Drawing.Size(81, 69);
             this.Clear.TabIndex = 19;
             this.Clear.Text = "CLEAR";
             this.Clear.UseVisualStyleBackColor = true;
             this.Clear.Click += new System.EventHandler(this.ClearButton_Click);
             // 
-            // Form1
+            // Convert
+            // 
+            this.Convert.Location = new System.Drawing.Point(45, 531);
+            this.Convert.Name = "Convert";
+            this.Convert.Size = new System.Drawing.Size(400, 69);
+            this.Convert.TabIndex = 20;
+            this.Convert.Text = "Convert";
+            this.Convert.UseVisualStyleBackColor = true;
+            this.Convert.Click += new System.EventHandler(this.Convert_Click);
+            // 
+            // Feet
+            // 
+            this.Feet.Location = new System.Drawing.Point(479, 233);
+            this.Feet.Name = "Feet";
+            this.Feet.Size = new System.Drawing.Size(81, 35);
+            this.Feet.TabIndex = 21;
+            this.Feet.Text = "Feet";
+            this.Feet.UseVisualStyleBackColor = true;
+            this.Feet.Click += new System.EventHandler(this.Feet_Click);
+            // 
+            // Centimeter
+            // 
+            this.Centimeter.Location = new System.Drawing.Point(479, 456);
+            this.Centimeter.Name = "Centimeter";
+            this.Centimeter.Size = new System.Drawing.Size(88, 35);
+            this.Centimeter.TabIndex = 22;
+            this.Centimeter.Text = "Centimeter";
+            this.Centimeter.UseVisualStyleBackColor = true;
+            this.Centimeter.Click += new System.EventHandler(this.Centimeter_Click);
+            // 
+            // Inches
+            // 
+            this.Inches.Location = new System.Drawing.Point(479, 176);
+            this.Inches.Name = "Inches";
+            this.Inches.Size = new System.Drawing.Size(81, 35);
+            this.Inches.TabIndex = 23;
+            this.Inches.Text = "Inches";
+            this.Inches.UseVisualStyleBackColor = true;
+            this.Inches.Click += new System.EventHandler(this.Inches_Click);
+            // 
+            // Yard
+            // 
+            this.Yard.Location = new System.Drawing.Point(479, 291);
+            this.Yard.Name = "Yard";
+            this.Yard.Size = new System.Drawing.Size(81, 35);
+            this.Yard.TabIndex = 24;
+            this.Yard.Text = "Yard";
+            this.Yard.UseVisualStyleBackColor = true;
+            this.Yard.Click += new System.EventHandler(this.Yard_Click);
+            // 
+            // Meter
+            // 
+            this.Meter.Location = new System.Drawing.Point(479, 514);
+            this.Meter.Name = "Meter";
+            this.Meter.Size = new System.Drawing.Size(81, 35);
+            this.Meter.TabIndex = 25;
+            this.Meter.Text = "Meter";
+            this.Meter.UseVisualStyleBackColor = true;
+            this.Meter.Click += new System.EventHandler(this.Meter_Click);
+            // 
+            // Miles
+            // 
+            this.Miles.Location = new System.Drawing.Point(479, 346);
+            this.Miles.Name = "Miles";
+            this.Miles.Size = new System.Drawing.Size(81, 35);
+            this.Miles.TabIndex = 26;
+            this.Miles.Text = "Miles";
+            this.Miles.UseVisualStyleBackColor = true;
+            this.Miles.Click += new System.EventHandler(this.Miles_Click);
+            // 
+            // Grams
+            // 
+            this.Grams.Location = new System.Drawing.Point(592, 304);
+            this.Grams.Name = "Grams";
+            this.Grams.Size = new System.Drawing.Size(81, 35);
+            this.Grams.TabIndex = 27;
+            this.Grams.Text = "Grams";
+            this.Grams.UseVisualStyleBackColor = true;
+            this.Grams.Click += new System.EventHandler(this.Grams_Click);
+            // 
+            // Pounds
+            // 
+            this.Pounds.Location = new System.Drawing.Point(592, 249);
+            this.Pounds.Name = "Pounds";
+            this.Pounds.Size = new System.Drawing.Size(79, 35);
+            this.Pounds.TabIndex = 28;
+            this.Pounds.Text = "Pounds";
+            this.Pounds.UseVisualStyleBackColor = true;
+            this.Pounds.Click += new System.EventHandler(this.Pounds_Click);
+            // 
+            // Kilometer
+            // 
+            this.Kilometer.Location = new System.Drawing.Point(479, 565);
+            this.Kilometer.Name = "Kilometer";
+            this.Kilometer.Size = new System.Drawing.Size(81, 35);
+            this.Kilometer.TabIndex = 29;
+            this.Kilometer.Text = "Kilometer";
+            this.Kilometer.UseVisualStyleBackColor = true;
+            this.Kilometer.Click += new System.EventHandler(this.Kilometer_Click);
+            // 
+            // Millimeter
+            // 
+            this.Millimeter.Location = new System.Drawing.Point(479, 401);
+            this.Millimeter.Name = "Millimeter";
+            this.Millimeter.Size = new System.Drawing.Size(81, 35);
+            this.Millimeter.TabIndex = 30;
+            this.Millimeter.Text = "Millimeter";
+            this.Millimeter.UseVisualStyleBackColor = true;
+            this.Millimeter.Click += new System.EventHandler(this.Millimeter_Click);
+            // 
+            // Celsius
+            // 
+            this.Celsius.Location = new System.Drawing.Point(592, 472);
+            this.Celsius.Name = "Celsius";
+            this.Celsius.Size = new System.Drawing.Size(81, 35);
+            this.Celsius.TabIndex = 31;
+            this.Celsius.Text = "Celsius";
+            this.Celsius.UseVisualStyleBackColor = true;
+            this.Celsius.Click += new System.EventHandler(this.Celsius_Click);
+            // 
+            // Fahrenheit
+            // 
+            this.Fahrenheit.Location = new System.Drawing.Point(586, 417);
+            this.Fahrenheit.Name = "Fahrenheit";
+            this.Fahrenheit.Size = new System.Drawing.Size(93, 35);
+            this.Fahrenheit.TabIndex = 32;
+            this.Fahrenheit.Text = "Fahrenheit";
+            this.Fahrenheit.UseVisualStyleBackColor = true;
+            this.Fahrenheit.Click += new System.EventHandler(this.Fahrenheit_Click);
+            // 
+            // Kilograms
+            // 
+            this.Kilograms.Location = new System.Drawing.Point(592, 362);
+            this.Kilograms.Name = "Kilograms";
+            this.Kilograms.Size = new System.Drawing.Size(81, 35);
+            this.Kilograms.TabIndex = 33;
+            this.Kilograms.Text = "Kilograms";
+            this.Kilograms.UseVisualStyleBackColor = true;
+            this.Kilograms.Click += new System.EventHandler(this.Kilograms_Click);
+            // 
+            // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(684, 613);
+            this.Controls.Add(this.Kilograms);
+            this.Controls.Add(this.Fahrenheit);
+            this.Controls.Add(this.Celsius);
+            this.Controls.Add(this.Millimeter);
+            this.Controls.Add(this.Kilometer);
+            this.Controls.Add(this.Pounds);
+            this.Controls.Add(this.Grams);
+            this.Controls.Add(this.Miles);
+            this.Controls.Add(this.Meter);
+            this.Controls.Add(this.Yard);
+            this.Controls.Add(this.Inches);
+            this.Controls.Add(this.Centimeter);
+            this.Controls.Add(this.Feet);
+            this.Controls.Add(this.Convert);
             this.Controls.Add(this.Clear);
             this.Controls.Add(this.MoreButton);
             this.Controls.Add(this.EightButton);
@@ -307,14 +411,9 @@ namespace CalculatorProject3155
             this.Controls.Add(this.NegativeButton);
             this.Controls.Add(this.DecimalButton);
             this.Controls.Add(this.ZeroButton);
-            this.Controls.Add(this.SubtractButton);
-            this.Controls.Add(this.AddButton);
-            this.Controls.Add(this.MultiplyButton);
-            this.Controls.Add(this.DivideButton);
-            this.Controls.Add(this.CalculateButton);
             this.Controls.Add(this.OutcomeTextBox);
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "Form1";
+            this.Name = "Form4";
             this.Text = "Calculator";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -324,11 +423,6 @@ namespace CalculatorProject3155
         #endregion
 
         private System.Windows.Forms.TextBox OutcomeTextBox;
-        private System.Windows.Forms.Button CalculateButton;
-        private System.Windows.Forms.Button DivideButton;
-        private System.Windows.Forms.Button MultiplyButton;
-        private System.Windows.Forms.Button AddButton;
-        private System.Windows.Forms.Button SubtractButton;
         private System.Windows.Forms.Button ZeroButton;
         private System.Windows.Forms.Button DecimalButton;
         private System.Windows.Forms.Button NegativeButton;
@@ -343,6 +437,19 @@ namespace CalculatorProject3155
         private System.Windows.Forms.Button EightButton;
         private System.Windows.Forms.Button MoreButton;
         private System.Windows.Forms.Button Clear;
+        private System.Windows.Forms.Button Convert;
+        private System.Windows.Forms.Button Feet;
+        private System.Windows.Forms.Button Centimeter;
+        private System.Windows.Forms.Button Inches;
+        private System.Windows.Forms.Button Yard;
+        private System.Windows.Forms.Button Meter;
+        private System.Windows.Forms.Button Miles;
+        private System.Windows.Forms.Button Grams;
+        private System.Windows.Forms.Button Pounds;
+        private System.Windows.Forms.Button Kilometer;
+        private System.Windows.Forms.Button Millimeter;
+        private System.Windows.Forms.Button Celsius;
+        private System.Windows.Forms.Button Fahrenheit;
+        private System.Windows.Forms.Button Kilograms;
     }
 }
-
