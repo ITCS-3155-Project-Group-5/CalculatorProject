@@ -126,8 +126,8 @@ namespace CalculatorProject3155
         {
             this.OutcomeTextBox.Text = "";
             this.input = string.Empty;
-            this.unit1 = string.Empty;
-            this.unit2 = string.Empty;
+            //this.unit1 = string.Empty;
+            //this.unit2 = string.Empty;
         }
 
         private void Convert_Click(object sender, EventArgs e)
@@ -161,7 +161,7 @@ namespace CalculatorProject3155
             {
                 if(unit2 == "Fahrenheit")
                 {
-                    result = (num1 * (9 / 5)) + 32;
+                    result = num1 * 1.8 + 32;
                     OutcomeTextBox.Text = result.ToString();
                     input = result.ToString();
                 }
@@ -241,7 +241,7 @@ namespace CalculatorProject3155
             {
                 if(unit2 == "Celcius")
                 {
-                    result = (num1 - 32) * (5 / 9);
+                    result = (num1 - 32) / ( 9/5 );
                     OutcomeTextBox.Text = result.ToString();
                     input = result.ToString();
                 }

@@ -4,7 +4,6 @@ C:\Users\haong\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorPr
 C:\Users\haong\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.csprojAssemblyReference.cache
 C:\Users\haong\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.Form1.resources
 C:\Users\haong\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.Form2.resources
-C:\Users\haong\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.Form3.resources
 C:\Users\haong\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.Properties.Resources.resources
 C:\Users\haong\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.csproj.GenerateResource.cache
 C:\Users\haong\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.csproj.CoreCompileInputs.cache
@@ -42,3 +41,8 @@ C:\Users\Nick Tallent\source\repos\CalculatorProject\CalculatorProject3155\Calcu
 C:\Users\Nick Tallent\source\repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.csproj.CopyComplete
 C:\Users\Nick Tallent\source\repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.exe
 C:\Users\Nick Tallent\source\repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.pdb
+C:\Users\haong\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\bin\Debug\Newtonsoft.Json.dll
+C:\Users\haong\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\bin\Debug\Newtonsoft.Json.xml
+C:\Users\haong\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.InputAmountTextbox.resources
+C:\Users\haong\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.Form4.resources
+C:\Users\haong\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.csproj.CopyComplete
