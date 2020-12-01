@@ -42,3 +42,20 @@ C:\Users\Nick Tallent\source\repos\CalculatorProject\CalculatorProject3155\Calcu
 C:\Users\Nick Tallent\source\repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.csproj.CopyComplete
 C:\Users\Nick Tallent\source\repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.exe
 C:\Users\Nick Tallent\source\repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.pdb
+C:\Users\clean\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.csprojAssemblyReference.cache
+C:\Users\clean\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.Form1.resources
+C:\Users\clean\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.Form2.resources
+C:\Users\clean\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.InputAmountTextbox.resources
+C:\Users\clean\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.Form4.resources
+C:\Users\clean\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.Properties.Resources.resources
+C:\Users\clean\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.csproj.GenerateResource.cache
+C:\Users\clean\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.csproj.CoreCompileInputs.cache
+C:\Users\clean\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.exe
+C:\Users\clean\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.pdb
+C:\Users\clean\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\bin\Debug\CalculatorProject3155.exe.config
+C:\Users\clean\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\bin\Debug\CalculatorProject3155.exe
+C:\Users\clean\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\bin\Debug\CalculatorProject3155.pdb
+C:\Users\clean\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\bin\Debug\Newtonsoft.Json.dll
+C:\Users\clean\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\bin\Debug\Newtonsoft.Json.xml
+C:\Users\clean\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.Form5.resources
+C:\Users\clean\Source\Repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.csproj.CopyComplete

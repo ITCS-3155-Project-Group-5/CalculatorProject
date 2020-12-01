@@ -35,7 +35,10 @@ namespace CalculatorProject3155
 
         private void GraphingButton_Click(object sender, EventArgs e)
         {
-
+            Form5 myForm = new Form5();
+            this.Hide();
+            myForm.ShowDialog();
+            this.Close();
         }
 
         private void BasicOperationsButton_Click(object sender, EventArgs e)
