@@ -27,7 +27,7 @@ namespace CalculatorProject3155
 
         private void CurrencyConversionButton_Click(object sender, EventArgs e)
         {
-            Form3 myForm = new Form3();
+            InputAmountTextbox myForm = new InputAmountTextbox();
             this.Hide();
             myForm.ShowDialog();
             this.Close();

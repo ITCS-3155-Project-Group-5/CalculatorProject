@@ -16,10 +16,10 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 namespace CalculatorProject3155
 {
-    public partial class Form3 : Form
+    public partial class InputAmountTextbox : Form
     {
 
-        public class Conversions
+        public  class Conversions
         {
             public Boolean success { get; set; }
             public string terms { get; set; }
@@ -27,9 +27,10 @@ namespace CalculatorProject3155
             public double timestamp { get; set; }
             public string source { get; set; }
             public Dictionary<string, double> quotes { get; set; }
+            public string index;
 
         }
-        public Form3()
+        public InputAmountTextbox()
         {
             InitializeComponent();
             /*string ACCESS_KEY = "0dd20b1e4b12728cd522eb516d840efd";
@@ -37,13 +38,8 @@ namespace CalculatorProject3155
             string ENDPOINT = "live"; 
             */
 
-            HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://api.currencylayer.com/live?access_key=0dd20b1e4b12728cd522eb516d840efd");
-            HttpWebResponse response = (HttpWebResponse)request.GetResponse();
-            Stream resStream = response.GetResponseStream();
-
-            string json = GetResponseBody(response);
-
-            Conversions conversions = JsonConvert.DeserializeObject<Conversions>(json);
+            
+            double conversionRate = 0;
         }
 
 
@@ -58,7 +54,42 @@ namespace CalculatorProject3155
         private void USDConversionList_SelectedIndexChanged(object sender, EventArgs e)
         {
             string index = USDConversionList.SelectedItem.ToString();
+            
         }
+
+        
+
+        private  void ConvertButton_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Boolean notGrabbed = true;
+                string index = null;
+
+                Conversions conversions = null;
+                while (notGrabbed)
+                {
+                    index = USDConversionList.SelectedItem.ToString();
+                    HttpWebRequest request = (HttpWebRequest)WebRequest.Create("http://api.currencylayer.com/live?access_key=0dd20b1e4b12728cd522eb516d840efd");
+                    HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+                    Stream resStream = response.GetResponseStream();
+
+                    string json = GetResponseBody(response);
+
+                    conversions = JsonConvert.DeserializeObject<Conversions>(json);
+                    notGrabbed = false;
+                }
+                double conversionRate = conversions.quotes[index];
+                double outcome = double.Parse(InputTextbox.Text) * conversionRate;
+                OutcomeLabel.Text = outcome.ToString();
+            }catch(Exception exception)
+            {
+                OutcomeLabel.Text = "Error, please check your input";
+            }
+            
+        }
+
+        
     }
 
  }
