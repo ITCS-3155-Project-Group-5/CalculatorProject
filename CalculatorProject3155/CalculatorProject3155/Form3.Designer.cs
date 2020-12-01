@@ -36,6 +36,7 @@ namespace CalculatorProject3155
             this.ConvertButton = new System.Windows.Forms.Button();
             this.OutcomeLabel = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.BackButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -275,12 +276,23 @@ namespace CalculatorProject3155
             this.label4.TabIndex = 7;
             this.label4.Text = "Converted Amount:";
             // 
+            // BackButton
+            // 
+            this.BackButton.Location = new System.Drawing.Point(442, 285);
+            this.BackButton.Name = "BackButton";
+            this.BackButton.Size = new System.Drawing.Size(84, 47);
+            this.BackButton.TabIndex = 8;
+            this.BackButton.Text = "BACK";
+            this.BackButton.UseVisualStyleBackColor = true;
+            this.BackButton.Click += new System.EventHandler(this.BackButton_Click);
+            // 
             // InputAmountTextbox
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(553, 360);
+            this.Controls.Add(this.BackButton);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.OutcomeLabel);
             this.Controls.Add(this.ConvertButton);
@@ -304,5 +316,6 @@ namespace CalculatorProject3155
         private System.Windows.Forms.Button ConvertButton;
         private System.Windows.Forms.Label OutcomeLabel;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button BackButton;
     }
 }

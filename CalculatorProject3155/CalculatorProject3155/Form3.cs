@@ -27,19 +27,11 @@ namespace CalculatorProject3155
             public double timestamp { get; set; }
             public string source { get; set; }
             public Dictionary<string, double> quotes { get; set; }
-            public string index;
 
         }
         public InputAmountTextbox()
         {
             InitializeComponent();
-            /*string ACCESS_KEY = "0dd20b1e4b12728cd522eb516d840efd";
-            string baseURL = "http://api.currencylayer.com/";
-            string ENDPOINT = "live"; 
-            */
-
-            
-            double conversionRate = 0;
         }
 
 
@@ -56,8 +48,7 @@ namespace CalculatorProject3155
             string index = USDConversionList.SelectedItem.ToString();
             
         }
-
-        
+ 
 
         private  void ConvertButton_Click(object sender, EventArgs e)
         {
@@ -89,7 +80,13 @@ namespace CalculatorProject3155
             
         }
 
-        
+        private void BackButton_Click(object sender, EventArgs e)
+        {
+            Form2 myForm = new Form2();
+            this.Hide();
+            myForm.ShowDialog();
+            this.Close();
+        }
     }
 
  }
