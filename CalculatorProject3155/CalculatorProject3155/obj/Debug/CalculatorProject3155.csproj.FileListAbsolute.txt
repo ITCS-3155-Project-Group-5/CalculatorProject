@@ -26,3 +26,19 @@ C:\Users\Nick Tallent\source\repos\CalculatorProject\CalculatorProject3155\Calcu
 C:\Users\Nick Tallent\source\repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.csproj.CopyComplete
 C:\Users\Nick Tallent\source\repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.Form4.resources
 C:\Users\Nick Tallent\source\repos\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.InputAmountTextbox.resources
+E:\Calc Project Software Engineering\CalculatorProject\CalculatorProject3155\CalculatorProject3155\bin\Debug\CalculatorProject3155.exe.config
+E:\Calc Project Software Engineering\CalculatorProject\CalculatorProject3155\CalculatorProject3155\bin\Debug\CalculatorProject3155.exe
+E:\Calc Project Software Engineering\CalculatorProject\CalculatorProject3155\CalculatorProject3155\bin\Debug\CalculatorProject3155.pdb
+E:\Calc Project Software Engineering\CalculatorProject\CalculatorProject3155\CalculatorProject3155\bin\Debug\Newtonsoft.Json.dll
+E:\Calc Project Software Engineering\CalculatorProject\CalculatorProject3155\CalculatorProject3155\bin\Debug\Newtonsoft.Json.xml
+E:\Calc Project Software Engineering\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.csprojAssemblyReference.cache
+E:\Calc Project Software Engineering\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.Form1.resources
+E:\Calc Project Software Engineering\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.Form2.resources
+E:\Calc Project Software Engineering\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.InputAmountTextbox.resources
+E:\Calc Project Software Engineering\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.Form4.resources
+E:\Calc Project Software Engineering\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.Properties.Resources.resources
+E:\Calc Project Software Engineering\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.csproj.GenerateResource.cache
+E:\Calc Project Software Engineering\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.csproj.CoreCompileInputs.cache
+E:\Calc Project Software Engineering\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.csproj.CopyComplete
+E:\Calc Project Software Engineering\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.exe
+E:\Calc Project Software Engineering\CalculatorProject\CalculatorProject3155\CalculatorProject3155\obj\Debug\CalculatorProject3155.pdb

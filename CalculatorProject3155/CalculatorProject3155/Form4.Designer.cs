@@ -33,7 +33,7 @@ namespace CalculatorProject3155
             this.MoreButton = new System.Windows.Forms.Button();
             this.Clear = new System.Windows.Forms.Button();
             this.Convert = new System.Windows.Forms.Button();
-            this.fromList = new System.Windows.Forms.ListBox();
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -96,10 +96,10 @@ namespace CalculatorProject3155
             this.Convert.UseVisualStyleBackColor = true;
             this.Convert.Click += new System.EventHandler(this.Convert_Click);
             // 
-            // fromList
+            // listBox1
             // 
-            this.fromList.FormattingEnabled = true;
-            this.fromList.Items.AddRange(new object[] {
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.Items.AddRange(new object[] {
             "Celcius",
             "Centimeters",
             "Fahrenheit",
@@ -113,11 +113,11 @@ namespace CalculatorProject3155
             "Millimeters",
             "Pounds",
             "Yards"});
-            this.fromList.Location = new System.Drawing.Point(34, 156);
-            this.fromList.Name = "fromList";
-            this.fromList.Size = new System.Drawing.Size(120, 186);
-            this.fromList.TabIndex = 35;
-            this.fromList.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            this.listBox1.Location = new System.Drawing.Point(34, 156);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(120, 186);
+            this.listBox1.TabIndex = 35;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // textBox1
             // 
@@ -314,7 +314,7 @@ namespace CalculatorProject3155
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.listBox2);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.fromList);
+            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.Convert);
             this.Controls.Add(this.Clear);
             this.Controls.Add(this.MoreButton);
@@ -332,7 +332,7 @@ namespace CalculatorProject3155
         private System.Windows.Forms.Button MoreButton;
         private System.Windows.Forms.Button Clear;
         private System.Windows.Forms.Button Convert;
-        private System.Windows.Forms.ListBox fromList;
+        private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.ListBox listBox2;
         private System.Windows.Forms.TextBox textBox2;
