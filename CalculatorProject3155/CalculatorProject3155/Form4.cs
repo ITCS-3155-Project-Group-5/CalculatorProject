@@ -232,7 +232,7 @@ namespace CalculatorProject3155
                 //If temp or weight is selected
                 else
                 {
-                    OutcomeTextBox.Text = "Cna not convert. Press CLEAR, reclick new units";
+                    OutcomeTextBox.Text = "Can not convert. Press CLEAR, reclick new units";
                 }
             }
 

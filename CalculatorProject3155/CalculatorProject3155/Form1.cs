@@ -26,86 +26,74 @@ namespace CalculatorProject3155
 
         private void ZeroButton_Click(object sender, EventArgs e)
         {
-            this.OutcomeTextBox.Text = "";
             input += "0";
-            this.OutcomeTextBox.Text += input;
+            this.OutcomeTextBox.Text += "0";
         }
 
         private void DecimalButton_Click(object sender, EventArgs e)
         {
-            this.OutcomeTextBox.Text = "";
             input += ".";
-            this.OutcomeTextBox.Text += input;
+            this.OutcomeTextBox.Text += ".";
         }
 
         private void NegativeButton_Click(object sender, EventArgs e)
         {
-            this.OutcomeTextBox.Text = "";
             input += "-";
-            this.OutcomeTextBox.Text += input;
+            this.OutcomeTextBox.Text += "-";
         }
 
         private void OneButton_Click(object sender, EventArgs e)
         {
-            this.OutcomeTextBox.Text = "";
             input += "1";
-            this.OutcomeTextBox.Text += input;
+            this.OutcomeTextBox.Text += "1";
         }
 
         private void TwoButton_Click(object sender, EventArgs e)
         {
-            this.OutcomeTextBox.Text = "";
             input += "2";
-            this.OutcomeTextBox.Text += input;
+            this.OutcomeTextBox.Text += "2";
         }
 
         private void ThreeButton_Click(object sender, EventArgs e)
         {
-            this.OutcomeTextBox.Text = "";
             input += "3";
-            this.OutcomeTextBox.Text += input;
+            this.OutcomeTextBox.Text += "3";
         }
 
         private void FourButton_Click(object sender, EventArgs e)
         {
-            this.OutcomeTextBox.Text = "";
             input += "4";
-            this.OutcomeTextBox.Text += input;
+            this.OutcomeTextBox.Text += "4";
         }
 
         private void FiveButton_Click(object sender, EventArgs e)
         {
-            this.OutcomeTextBox.Text = "";
             input += "5";
-            this.OutcomeTextBox.Text += input;
+            this.OutcomeTextBox.Text += "5";
         }
 
         private void SixButton_Click(object sender, EventArgs e)
         {
-            this.OutcomeTextBox.Text = "";
             input += "6";
-            this.OutcomeTextBox.Text += input;
+            this.OutcomeTextBox.Text += "6";
         }
 
         private void SevenButton_Click(object sender, EventArgs e)
         {
-            this.OutcomeTextBox.Text = "";
             input += "7";
-            this.OutcomeTextBox.Text += input;
+            this.OutcomeTextBox.Text += "7";
         }
 
         private void EightButton_Click(object sender, EventArgs e)
         {
-            this.OutcomeTextBox.Text = "";
             input += "8";
-            this.OutcomeTextBox.Text += input;
+            this.OutcomeTextBox.Text += "8";
         }
 
         private void NineButton_Click(object sender, EventArgs e)
         {
-            this.OutcomeTextBox.Text = "";
             input += "9";
-            this.OutcomeTextBox.Text += input;
+            this.OutcomeTextBox.Text += "9";
         }
 
         private void DivideButton_Click(object sender, EventArgs e)
@@ -113,6 +101,7 @@ namespace CalculatorProject3155
             operand1 = input;
             operation = '/';
             input = string.Empty;
+            this.OutcomeTextBox.Text += operation;
         }
 
         private void MultiplyButton_Click(object sender, EventArgs e)
@@ -120,6 +109,7 @@ namespace CalculatorProject3155
             operand1 = input;
             operation = '*';
             input = string.Empty;
+            this.OutcomeTextBox.Text += operation;
         }
 
         private void AddButton_Click(object sender, EventArgs e)
@@ -127,6 +117,7 @@ namespace CalculatorProject3155
             operand1 = input;
             operation = '+';
             input = string.Empty;
+            this.OutcomeTextBox.Text += operation;
         }
 
         private void SubtractButton_Click(object sender, EventArgs e)
@@ -134,6 +125,7 @@ namespace CalculatorProject3155
             operand1 = input;
             operation = '-';
             input = string.Empty;
+            this.OutcomeTextBox.Text += operation;
         }
 
         private void CalculateButton_Click(object sender, EventArgs e)
