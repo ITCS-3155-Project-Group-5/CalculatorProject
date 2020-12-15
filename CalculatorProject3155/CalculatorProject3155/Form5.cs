@@ -168,5 +168,10 @@ namespace CalculatorProject3155
             myForm.ShowDialog();
             this.Close();
         }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
